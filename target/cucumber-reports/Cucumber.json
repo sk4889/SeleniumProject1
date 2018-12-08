@@ -1,0 +1,238 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      },
+      {
+        "line": 19,
+        "value": "#@tag"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 21,
+            "value": "# I want to use this template for my feature file"
+          },
+          {
+            "line": 23,
+            "value": "#@tag1"
+          },
+          {
+            "line": 24,
+            "value": "#Scenario: Title of your scenario"
+          },
+          {
+            "line": 25,
+            "value": "#  Given I want to write a step with precondition"
+          },
+          {
+            "line": 26,
+            "value": "#  And some other precondition"
+          },
+          {
+            "line": 27,
+            "value": "#  When I complete action"
+          },
+          {
+            "line": 28,
+            "value": "#  And some other action"
+          },
+          {
+            "line": 29,
+            "value": "# And yet another action"
+          },
+          {
+            "line": 30,
+            "value": "#Then I validate the outcomes"
+          },
+          {
+            "line": 31,
+            "value": "#And check more outcomes"
+          },
+          {
+            "line": 33,
+            "value": "#@tag2"
+          },
+          {
+            "line": 34,
+            "value": "#Scenario Outline: Title of your scenario outline"
+          },
+          {
+            "line": 35,
+            "value": "# Given I want to write a step with \u003cname\u003e"
+          },
+          {
+            "line": 36,
+            "value": "# When I check for the \u003cvalue\u003e in step"
+          },
+          {
+            "line": 37,
+            "value": "# Then I verify the \u003cstatus\u003e in step"
+          },
+          {
+            "line": 39,
+            "value": "#    Examples:"
+          },
+          {
+            "line": 40,
+            "value": "#     | name  | value | status  |"
+          },
+          {
+            "line": 41,
+            "value": "#    | name1 |     5 | success |"
+          },
+          {
+            "line": 42,
+            "value": "#   | name2 |     7 | Fail    |"
+          }
+        ],
+        "line": 46,
+        "name": "Selecting a product in snapdeal site",
+        "description": "",
+        "id": "title-of-your-feature;selecting-a-product-in-snapdeal-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20872917816,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user is on snapdeal portal",
+            "match": {
+              "location": "GlueClass.launch()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1969068520,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user enters a productname in the search field",
+            "match": {
+              "location": "GlueClass.productSelection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7020646667,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "GlueClass.click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2113727337,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user selects one product from the search list",
+            "match": {
+              "location": "GlueClass.select()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9490479527,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user clicks on add to cart button",
+            "match": {
+              "location": "GlueClass.addtocart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "Allfeature.feature"
+  }
+]
